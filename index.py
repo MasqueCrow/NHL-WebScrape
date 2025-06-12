@@ -216,7 +216,6 @@ def scrape_NHL_data(driver):
 	print('===================================')
 	print("Total no. of data extracted:", len(all_teams))
 
-	#driver.quit()
 	return all_teams
 
 if __name__ == "__main__":
